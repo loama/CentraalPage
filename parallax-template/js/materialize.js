@@ -2959,7 +2959,7 @@ $(document).ready(function(){
     init : function(options) {
       var defaults = {
         indicators: true,
-        height: 400,
+        
         transition: 500,
         interval: 6000
       };

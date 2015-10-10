@@ -7516,7 +7516,7 @@ select {
 
 .slider {
   position: relative;
-  height: 400px;
+  height: 50vw;
   width: 100%; }
   .slider.fullscreen {
     height: 100%;
@@ -7534,7 +7534,7 @@ select {
   .slider .slides {
     background-color: #9e9e9e;
     margin: 0;
-    height: 400px; }
+    height: 50vw; }
     .slider .slides li {
       opacity: 0;
       position: absolute;
@@ -7566,7 +7566,8 @@ select {
     left: 0;
     right: 0;
     bottom: 0;
-    margin: 0; }
+    margin: 0;
+    z-index: 999; }
     .slider .indicators .indicator-item {
       display: inline-block;
       position: relative;
