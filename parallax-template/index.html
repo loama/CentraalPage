@@ -81,14 +81,14 @@ Espacios Primera Sección
       <div class="container">
         <div class="row center">
           <div class="center">
-            <img src="images/simbologia_original/simbologia_canvas-04.png" style="height: 50px; margin-top: 5px" >
+            <img src="images/simbologia_original/simbologia_canvas-04.png" style="height: 50px; margin-top: 5px;" >
           </div>
           <h4 class="header col s12 light">"EL ÉXITO ES APRENDER A IR DE FRACASO EN FRACASO SIN DESESPERARSE"</h5>
           <h6>WINSTON CHURCHILL</h6>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="images/parallax/1.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img class="parallaximg" src="images/parallax/1.jpg" alt="Unsplashed background img 2"></div>
   </div>
 <!-- 
 Fin espacios
@@ -107,12 +107,68 @@ Inicio espacios de trabajo
             <h5 class="center">espacios de trabajo</h5>
             <div class="center">
               <p class="light">Nuestra combinación de espacios innovadores alrededor de una comunidad permitirán que trabajes de una forma única. Nuestros espacios están diseñados para fomentar la creatividad, el aprendizaje, el flujo de ideas entre miembros de un equipo y la interacción con la Comunidad <b>centraal</b></p>
-            </div>  
+            </div>
+              
           </div>
         </div>
       </div>
     </div>
   </div>
+    
+          <div class="row" style="width:95%">
+                <div class="col s4 m3" style="padding: 0">
+                  <img class="materialboxed" src="images/workspaces/pasillo.jpg" width="100%">
+                </div>
+
+                <div class="col s4 m3" style="padding: 0">
+                  <img class="materialboxed" src="images/workspaces/mac.jpg" width="100%">
+                </div>
+
+                <div class="col s4 m3" style="padding: 0">
+                  <img class="materialboxed" src="images/workspaces/privados.jpg" width="100%">
+                </div>
+
+                <div class="col s4 m3 hide-on-small-only" style="padding: 0">
+                  <img class="materialboxed" src="images/workspaces/tele.jpg" width="100%">
+                </div>
+                
+                <br><br>
+
+                <div class="col s6 m6 l4" style="height: 200px">
+                  <h5><img src="images/simbologia_original/simbologia_canvas-18.png" style="height: 20px; display: inline-block"> APRENDIZAJE</h5>
+                  <p>Cursos, talleres, conferencias y mucho más: Mantente al día y continúa tu desarrollo profesional.</p>
+                </div>
+
+                <div class="col s6 m6 l4" style="height: 200px">
+                  <h5><img src="images/simbologia_original/simbologia_canvas-13.png" style="height: 20px; display: inline-block"> ESPACIOS</h5>
+                  <p>Aprovecha nuestra innovadora propuesta de diseño, ubicación, infraestructura y variedad de espacios: Potencia tu productividad.</p>
+                </div>
+
+                <div class="col s6 m6 l4" style="height: 200px">
+                  <h5><img src="images/simbologia_original/simbologia_canvas-19.png" style="height: 20px; display: inline-block"> SERVICIO INTEGRAL</h5>
+                  <p>Nosotros nos ocupamos de la “oficina”: internet, mobiliario, impresiones y hasta masajes (sin cargos extras). Elige tu espacio favorito y concéntrate en tu negocio.</p>
+                </div>
+
+                <div class="col s6 m6 l4" style="height: 200px">
+                  <h5><img src="images/simbologia_original/simbologia_canvas-08.png" style="height: 20px; display: inline-block"> FLEXIBILIDAD</h5>
+                  <p>Espacios versátiles y configurables, ideales para equipos de todos los tamaño. Nos adaptamos a tu necesidad.</p>
+                </div>
+
+                <div class="col s6 m6 l4" style="height: 200px">
+                  <h5><img src="images/simbologia_original/simbologia_canvas-41.png" style="height: 20px; display: inline-block"> COMUNIDAD</h5>
+                  <p>Forma parte de una comunidad de emprendedores y profesionistas, aumentando tu red de contactos y disfruta de una nueva y divertida forma de trabajar.</p>
+                </div>
+
+                <div class="col s6 m6 l4" style="height: 200px">
+                  <h5><img src="images/simbologia_original/simbologia_canvas-15.png" style="height: 20px; display: inline-block"> SERENDIPIA</h5>
+                  <p>Creemos en las coincidencia y generamos los momentos para que descubras tu siguiente gran idea: Hazla realidad en <b>centraal</b>.</p>
+                </div>
+
+
+
+
+          </div>
+            
 
   <div style="background-color: #eee; width: 100%">
     <div class="section">
@@ -261,7 +317,7 @@ Inicio contacto
   <script src="js/init.js"></script>
   <script>
     $ (document).ready(function(){
-
+      $('.materialboxed').materialbox();
       $('.slider').slider();
     });
 
