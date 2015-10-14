@@ -2091,7 +2091,7 @@ img.responsive-img, video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px; }
+  height: 700px; }
 
 .parallax {
   position: absolute;
@@ -2175,8 +2175,8 @@ ul.staggered-list li {
     text-align: center; } }
 
 footer.page-footer {
-  margin-top: 20px;
-  padding-top: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
   background-color: #ee6e73; }
   footer.page-footer .footer-copyright {
     overflow: hidden;
@@ -5062,7 +5062,7 @@ nav ul a span.badge {
 .row {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px; }
+  margin-bottom: 0px; }
   .row:after {
     content: "";
     display: table;
@@ -5368,7 +5368,7 @@ nav {
         transform: translateY(0); }
 
 .navbar-fixed {
-  position: relative;
+  position: fixed;
   height: 56px;
   z-index: 998; }
   .navbar-fixed nav {
@@ -7517,7 +7517,8 @@ select {
 .slider {
   position: relative;
   height: 50vw;
-  width: 100%; }
+  width: 100%;
+  z-index:999; }
   .slider.fullscreen {
     height: 100%;
     width: 100%;
@@ -7565,8 +7566,7 @@ select {
     text-align: center;
     left: 0;
     right: 0;
-    bottom: 0;
-    margin: 0;
+    bottom: 0;  
     z-index: 999; }
     .slider .indicators .indicator-item {
       display: inline-block;
