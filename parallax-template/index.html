@@ -37,7 +37,7 @@
   <div class="slider" style="z-index: 1000">
     <ul class="slides">
       <li>
-        <img src="images/topslider/HomeComu.jpg" style="size: cover"> <!-- random image -->
+        <img src="images/topslider/HomeComu.jpg" > <!-- random image -->
         
         <div class="caption center-align">
         <p>Hola</p>
@@ -46,7 +46,7 @@
         </div>
       </li>
       <li>
-        <img src="images/topslider/HomeEven.jpg" style="size: cover"> <!-- random image -->
+        <img src="images/topslider/HomeEven.jpg" > <!-- random image -->
         <div class="caption center-align">
           <h3>espacios para realizar eventos</h3>
           <h5 class="light grey-text text-lighten-3">empresas | comunidad</h5>
@@ -95,10 +95,15 @@ Espacios Primera Sección
           </div>
           <h4 class="header col s12 light">"EL ÉXITO ES APRENDER A IR DE FRACASO EN FRACASO SIN DESESPERARSE"</h5>
           <h6>WINSTON CHURCHILL</h6>
+
         </div>
       </div>
     </div>
-    <div class="parallax"><img class="parallaximg" src="images/parallax/1.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax">
+      <img  style="hide-on-med-and-down" src="images/parallax/1.jpg" alt="">
+      <img  style="show-on-medium" src="images/parallax/1_m.jpg" alt="">
+      <img  style="show-on-small" src="images/parallax/1_s.jpg" alt="">
+    </div>
   </div>
 <!-- 
 Fin espacios
@@ -143,7 +148,8 @@ Inicio espacios de trabajo
         </div>
         
         <br><br>
-        <div style="height:200px"></div>
+        <div style="height:200px" class="hide-on-small-and-down"></div>
+        <div style="height:100px" class="hide-on-med-and-up"></div>
         <div class="col s12 m6 l4" style="height: 200px">
           <h5><img src="images/simbologia_original/simbologia_canvas-18.png" style="height: 20px; display: inline-block"> APRENDIZAJE</h5>
           <p>Cursos, talleres, conferencias y mucho más: Mantente al día y continúa tu desarrollo profesional.</p>
@@ -176,7 +182,7 @@ Inicio espacios de trabajo
   </div>            
 
   <div style="background-color: #eee; width: 100%">
-    <div class="section">
+    <div class="section" id="coworking">
 
       <!--   Icon Section   -->
       <div class="row">
@@ -209,7 +215,7 @@ Inicio espacios de trabajo
           <div class="col s12 m4">      
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/spacescentraal/Galerón.jpg" style="height: 21vw; min-height: 260px">
+                <img class="activator" src="images/spacescentraal/Galeron.jpg" style="height: 21vw; min-height: 260px">
               </div>
               <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">Espacio Fijo<i class="material-icons right">more_vert</i></span>
@@ -229,12 +235,12 @@ Inicio espacios de trabajo
                   <ul class="slides" style="height: auto; margin: 0; padding: 0">
                     <li>
                       <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/spacescentraal/SalónCoco.jpg">
+                        <img class="activator" src="images/spacescentraal/SalonCoco.jpg">
                       </div>
                     </li>
                     <li>
                       <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/spacescentraal/Cafetería.jpg">
+                        <img class="activator" src="images/spacescentraal/Cafeteria.jpg">
                       </div>
                     </li>
                     <li>
@@ -274,14 +280,18 @@ Inicio espacios de trabajo
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="images/parallax/2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax">
+      <img  style="hide-on-med-and-down" src="images/parallax/2.jpg" alt="">
+      <img  style="show-on-medium" src="images/parallax/2_m.jpg" alt="">
+      <img  style="show-on-small" src="images/parallax/2_s.jpg" alt="">
+    </div>
   </div>
 <!--
 Fin espacios de trabajo
 Inicio espacios para eventos
 -->
   <div class="container">
-    <div class="section" id="eventos">
+    <div class="section" id="">
 
       <!--   Icon Section   -->
       <div class="row">
@@ -297,8 +307,8 @@ Inicio espacios para eventos
             </div>  
           </div>
 
-          <div class="row">
-            <div class="col s12">
+          <div class="row" style="max-width: 100%">
+            <div class="col s12 hide-on-small-and-down">
               <ul class="tabs">
                 <li class="tab col s3"><a class="active" href="#todas">todas</a></li>
                 <li class="tab col s3"><a href="#presentaciones">presentaciones</a></li>
@@ -307,6 +317,16 @@ Inicio espacios para eventos
                 <li class="tab col s3"><a href="#reunionesytalleres">reuniones y talleres</a></li>
               </ul>
             </div>
+            <div class="col s12 hide-on-med-and-up">
+              <ul class="tabs">
+                <li class="tab col s3"><a class="active" href="#todas">todas</a></li>
+                <li class="tab col s3"><a href="#presentaciones">p</a></li>
+                <li class="tab col s3"><a href="#cockteles">c</a></li>
+                <li class="tab col s3"><a href="#sesionescreativas">s</a></li>
+                <li class="tab col s3"><a href="#reunionesytalleres">r</a></li>
+              </ul>
+            </div>
+
             <div id="todas" class="col s12">
               <div class="col s12 m6 l4" style="padding: 0"> <img src="images/events/sesioncreativa1.jpg" class="materialboxed" width= "100%"></div>
 
@@ -358,7 +378,11 @@ Inicio espacios para eventos
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="images/parallax/3.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax">
+      <img  style="hide-on-med-and-down" src="images/parallax/3.jpg" alt="">
+      <img  style="show-on-medium" src="images/parallax/3_m.jpg" alt="">
+      <img  style="show-on-small" src="images/parallax/3_s.jpg" alt="">
+    </div>
   </div>
 <!--
 Fin espacios para eventos
@@ -398,7 +422,11 @@ Inicio sé parte de nuestra comunidad
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="images/parallax/4.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax">
+      <img  style="hide-on-med-and-down" src="images/parallax/4.jpg" alt="">
+      <img  style="show-on-medium" src="images/parallax/4_m.jpg" alt="">
+      <img  style="show-on-small" src="images/parallax/4_s.jpg" alt="">
+    </div>
   </div>
 <!-- 
 Fin sé parte de nuestra comunidad
@@ -412,7 +440,36 @@ Inicio contacto
           <img src="images/simbologia_original/simbologia_canvas-21.png" style="height: 50px; margin-top: 5px" >
           <h4>contacto</h4>
           <h6>Agenda un tour o escríbenos para saludar</h6>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          
+          <div class="row">
+
+            <div class="col s6 m3 l3">
+              <div>
+                <img src="images/simbologia_original/simbologia_canvas-21.png" style="height: 50px; margin-top: 5px">
+              </div>
+              <div>  
+                Dirección
+              </div>
+                <br>
+              <div>  
+                <img src="images/simbologia_original/simbologia_canvas-21.png" style="height: 50px; margin-top: 5px">Teléfono
+              </div>    
+                <br>
+              <div>
+                <img src="images/simbologia_original/simbologia_canvas-21.png" style="height: 50px; margin-top: 5px">Email
+              </div>
+            </div>
+            
+            <div class="col s6 m6 l6">
+             
+            </div>
+
+            <div class="col s6 m3 l3">
+
+            </div>
+
+          </div>
+
         </div>
       </div>
 
@@ -430,8 +487,8 @@ Inicio contacto
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+  <script src="js/materializemin.js"></script>
+  <script src="js/initmin.js"></script>
   <script>
     $ (document).ready(function(){
       $('.materialboxed').materialbox();
