@@ -57,5 +57,41 @@ footer.page-footer {
 }
 
 .parallaximg {
-  filter: brightness(50%);
+  filter: brightness(0%) grayscale(1);
 }
+
+.home-vid {
+  z-index: 1005;
+  width: 100%;
+}
+
+.topimage {
+  height: 400px;
+  width: 100%;
+}
+
+.top-image {
+  -webkit-filter: grayscale(1) brightness(0.5);
+  filter: grayscale(1) brightness(0.5);
+}
+
+.navbar-fixed {
+  position: fixed;
+}
+
+.top-nav:hover {
+  color: #d50000;
+}
+
+.top-nav {
+  color: #fff;
+}
+
+.top-navactive {
+  color: #d50000 ;
+}
+
+.card-title {
+  text-align: center;
+}
+
