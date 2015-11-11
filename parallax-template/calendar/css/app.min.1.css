@@ -9687,8 +9687,8 @@ body {
 
 body {
   font-weight: 400;
-  padding-top: 65px;
-  padding-bottom: 110px;
+  padding-top: 0;
+  padding-bottom: 0;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 1000ms;
@@ -9757,7 +9757,7 @@ h6 small,
 }
 
 body #content {
-  padding: 30px 0;
+  padding: 0 0;
 }
 
 @media (min-width: 1200px) {
