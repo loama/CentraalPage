@@ -11,6 +11,11 @@ nav .brand-logo {
   color: #444;
 }
 
+.calendar{
+  margin: 0 auto 0 auto;
+  height: 100%;
+}
+
 p {
   line-height: 2rem;
 }
